@@ -24,3 +24,84 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+
+
+/* home deseign logo */
+
+.float-slow {
+  animation: floatSlow 3s ease-in-out infinite;
+}
+
+.float-slow-delay {
+  animation: floatSlow 3s ease-in-out infinite;
+  animation-delay: 1s;
+}
+@keyframes floatSlow {
+  0% { transform: translateY(0) rotate(0deg); }
+  50% { transform: translateY(-15px) rotate(30deg); }
+  100% { transform: translateY(0) rotate(0deg); }
+}
+
+
+
+/* education */
+
+/* ========= TIMELINE DOT RIPPLE ========= */
+@keyframes ripple {
+  0% {
+    transform: scale(0.8);
+    opacity: 0.6;
+  }
+  100% {
+    transform: scale(2.4);
+    opacity: 0;
+  }
+}
+
+.ripple::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 9999px;
+  background: rgba(16, 255, 128, 0.6);
+  animation: ripple 1.8s infinite;
+}
+
+/* ========= CARD 3D TILT ========= */
+.tilt-card {
+  transform-style: preserve-3d;
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.tilt-card:hover {
+  transform: perspective(1000px) rotateX(6deg) rotateY(-6deg) scale(1.03);
+  box-shadow: 0 20px 40px rgba(16, 255, 128, 0.25);
+}
+
+
+
+/* popup */
+
+@keyframes scaleIn {
+  0% {
+    transform: scale(0.8);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes pop {
+  0% {
+    transform: scale(0);
+  }
+  80% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
