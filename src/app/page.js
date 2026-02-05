@@ -1,14 +1,14 @@
 "use client";
 import Navigation from "./components/Navigation";
-// import Home from "./components/Home";
-// import About from "./components/About";
-// import Education from "./components/Education";
-// import Skills from "./components/Skills";
-// import Portfolio from "./components/Portfolio";
+import Home from "./components/Home";
+import About from "./components/About";
+import Education from "./components/Education";
+import Skills from "./components/Skills";
+import Portfolio from "./components/Portfolio";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import { useEffect } from "react";
-// import WhatsAppFloat from "./components/WhatsAppFloat";
+import WhatsAppFloat from "./components/WhatsAppFloat";
 
 const page = () => {
   useEffect(() => {
@@ -23,13 +23,13 @@ const page = () => {
   return (
     <div className="min-h-screen bg-background scrollbar-thin">
       <Navigation />
-      {/* <WhatsAppFloat /> */}
+      <WhatsAppFloat />
       <main>
-        {/* <Home /> */}
+        <Home />
         <About />
-        {/* <Education /> */}
-        {/* <Skills /> */}
-        {/* <Portfolio /> */}
+        <Education />
+        <Skills />
+        <Portfolio />
         <Contact />
       </main>
       <Footer />
