@@ -47,7 +47,7 @@ const About = () => {
                 visible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-5"
               }`}
             >
-              Web Developer!*
+              Cloud / DevOps Engineer & Web Developer!*
             </h3>
 
             <p
