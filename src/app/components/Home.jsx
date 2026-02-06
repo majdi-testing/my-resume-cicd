@@ -49,7 +49,7 @@ const Home = () => {
               <h1 className="text-4xl md:text-6xl font-bold text-balance">Md Khaleeque Akhtar</h1>
               <div className="flex flex-col items-baseline gap-3 text-2xl md:text-3xl font-light">
                 <span className="text-white">And I'm a</span>
-                <span className="font-bold flex flex-col text-green-400 animate-pulse">Web Developer  & Cloud / DevOps Engineer</span>
+                <span className="font-bold flex flex-col text-green-400 animate-pulse">Cloud / DevOps Engineer &  Web Developer</span>
               </div>
             </div>
 
