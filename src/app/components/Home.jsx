@@ -54,7 +54,7 @@ const Home = () => {
             </div>
 
             <p className="text-gray-300 text-lg leading-relaxed ">
-              I specialize in front-end development using Next.js, React, and Tailwind CSS, and have an understanding of AWS and Azure cloud fundamentals (EC2, S3, IAM), along with DevOps concepts including Git, CI/CD pipelines, Docker basics, and deployment processes.
+              I specialize in front-end development using Next.js, React, and Tailwind CSS, and have an understanding of AWS and Azure cloud fundamentals (EC2, S3, IAM), along with DevOps concepts including Git, CI/CD pipelines, Docker basics,Jenkins and deployment processes.
 
             </p>
 
