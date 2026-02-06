@@ -12,7 +12,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Majdi | Front-End & Cloud Engineer",
+  title: "Majdi | Cloud/DevOps Engineer & Front-End",
   description:
     "Portfolio of Majdi — Front-End Developer and Junior Cloud/DevOps Engineer with AWS experience. Skilled in Next.js, React, Tailwind CSS, and cloud support.",
   keywords: [
